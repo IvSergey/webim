@@ -1,0 +1,138 @@
+.footer{
+    min-height: 170px;
+    background-color: #393f6b;
+
+    @include tablets() {
+        min-height: 285px;
+    }
+}
+
+.footer__content.container{
+    @include tablets() {
+        max-width: 1480px;
+    }
+}
+
+.footer__content{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    display: none;
+    cursor: pointer;
+    @include tablets() {
+        display: block;
+    }
+}
+
+.footer__author{
+    padding-top: 10%;
+    font-size: 20px;
+    color: #fff;
+    max-width: 222px;
+    @include tablets() {
+        max-width: 255px;
+    }
+    @include laptops() {
+        max-width: 205px;
+    }
+}
+
+.footer__contacts{
+    display: none;
+    @include tablets() {
+        display: block;
+        margin-left: 10%;
+    }
+}
+
+.footer__socials{
+    display: none;
+    @include tablets() {
+        display: block;
+        margin-left: 15%;
+    }
+    @include laptops() {
+     
+        margin-left: 33%;
+    }
+    
+}
+
+.contacts__item{
+    margin-bottom: 30px;
+}
+
+.contacts__main{
+    display: flex;
+}
+
+.contacts__icon{
+    width: 30px;
+    height: 30px;
+    background: url('../../img/icons/phone.png') center center no-repeat;
+}
+
+
+
+.contacts__phone{
+    font-family: 'Myriad Pro';
+    color:  #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover{
+        color:#21a6e4;
+    }
+      
+}
+
+.contacts__phone_main{
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+.contacts__address{
+    color:  #adb0c2;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.socials__mail{
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.shedule{
+    color:  #adb0c2;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.socials__icon{
+    width: 20px;
+    height: 20px;
+    fill: #adb0c2;
+    margin-right: 20px;
+    margin-top: 25px;
+    transition: .3s;
+
+    &:hover{
+        fill:#21a6e4;
+    }
+}
+
+.socials__list{
+    display: flex;
+}

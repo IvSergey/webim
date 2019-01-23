@@ -1,0 +1,104 @@
+.simple-installation{
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.simple-installation__title{
+    color:  #393e6b;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 310px;
+    line-height: 50px;
+    @include tablets() {
+        max-width: 350px;
+        font-size: 30px;
+     }
+}
+
+.simple-installation__text{
+    max-width: 480px;
+    color:  #74757b;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    @include tablets() {
+        max-width: 525px;
+        font-size: 16px;
+     }  
+}
+
+.step__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    @include tablets() {
+        margin-top: 90px;
+     } 
+}
+
+.step__item{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 250px;
+    // margin: auto;
+}
+
+.step__item_first{
+    background: url("../../img/icons/first.png")  no-repeat;
+}
+
+.step__item_second{
+    background: url("../../img/icons/second.png")  no-repeat;
+    margin-right: 20%;
+    @include tablets() {
+        margin-right: 40%;
+    }
+}
+
+.step__item_registry{
+    width: 70px;
+    height: 70px;   
+    margin-top: 16px;
+    margin-left: 41px;
+    @include tablets() {
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+        margin-left: 45px;
+     } 
+}
+
+.step__item_html{
+    width: 70px;
+    height: 70px; 
+    margin-top: 16px;
+    margin-left: 41px;
+    @include tablets() {
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+        margin-left: 45px;
+     } 
+}
+
+.item__title{
+    max-width: 160px;
+    margin-top: 50px;
+    color:  #0da088;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+
+    &:hover{
+        text-decoration: none;
+    }
+    @include tablets() {
+        max-width: 200px;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 40px;
+     } 
+}

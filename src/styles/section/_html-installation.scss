@@ -1,0 +1,77 @@
+.html-installation{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.html-installation__title{
+    max-width: 310px;
+    color:  #393e6b;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 50px;
+    text-transform: uppercase;
+
+    @include tablets() {
+        font-size: 30px;
+        max-width: 388px;
+     }
+
+}
+
+.sites__item{
+    // list-style-type: disc;
+    margin-bottom: 65px;
+}
+
+.sites__link{
+    color:  #0da088;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.sites__subtitle{
+   
+    font-size: 30px;
+    font-weight: 400;
+    
+    text-align: left;
+    position: relative;
+    margin-left: 40px;
+
+    
+
+    &:before{
+        content: ' ';
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background-color:  #3b4269;
+        display: inline-block;
+        top: 35px;
+        left: -40px;
+
+        @include tablets() {
+            top: 12px;
+        }
+    }
+    @include tablets() {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.sites__text{
+    color:  #74757b;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 40px;
+
+    @include tablets() {
+        font-size: 16px;
+    }
+}

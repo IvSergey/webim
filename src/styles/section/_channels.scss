@@ -1,0 +1,106 @@
+.channels__content.container  {
+    @include tablets() {
+        max-width: 1015px;
+    }
+}
+
+
+.channels{
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.channels__text{
+    color:  #3b4269;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+
+    @include tablets() {
+        font-size: 18px;
+        width: 90%;
+        max-width: 777px;
+    }
+}
+
+.channels__list{
+    margin-top: 90px;
+
+    @include tablets() {
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
+
+.channels__image{
+    width: 70px;
+    height: 70px;
+
+    @include tablets() {
+        width: 40px;
+        height: 40px;
+        
+     }
+}
+
+.channels__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+
+    @include tablets() {
+        width: 33%;
+     }
+    
+}
+
+.channels__image_social{
+    background: url('../../img/icons/social_network.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_messanger{
+    background: url('../../img/icons/messanger.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_chatbot{
+    background: url('../../img/icons/chatbot.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_form{
+    background: url('../../img/icons/feedback.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_dyalogs{
+    background: url('../../img/icons/yandexd.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_mobile{
+    background: url('../../img/icons/mobile.svg') center center no-repeat;
+    background-size: contain
+}
+.channels__image_mail{
+    background: url('../../img/icons/email.svg') center center no-repeat;
+    background-size: contain
+}
+
+.channels__desc{
+    color:  #0da088;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 45px;
+    cursor: pointer;
+
+    &:hover{
+        text-decoration: none;
+    }
+
+    @include tablets() {
+        margin-left: 30px;
+        font-size: 18px;
+     }
+}
+
+

@@ -1,0 +1,46 @@
+{
+  "name": "webim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "IvSergey <imas.spb@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "serv": "static build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "0.1.18",
+    "css-loader": "^0.28.10",
+    "eslint": "4.18.1",
+    "eslint-loader": "^2.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "fontface-loader": "^0.0.8",
+    "html-webpack-plugin": "2.30.1",
+    "image-webpack-loader": "^4.5.0",
+    "node-sass": "^4.7.2",
+    "node-static": "^0.7.10",
+    "optimize-css-assets-webpack-plugin": "3.2.0",
+    "pug": "2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.20.2",
+    "stylelint": "8.1.1",
+    "stylelint-webpack-plugin": "0.9.0",
+    "svg-sprite-loader": "^3.7.3",
+    "svgo": "^1.0.5",
+    "svgo-loader": "^2.1.0",
+    "uglifyjs-webpack-plugin": "1.2.2",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.9.5"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
