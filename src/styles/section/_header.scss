@@ -17,7 +17,7 @@
 }
 
 .header__content.container{
-       
+       max-width: 682px;
     @include tablets() {
         width: 85%;
         max-width: 1900px;
@@ -101,7 +101,7 @@
    cursor: pointer;
 
         &:before{
-            top: -13px;
+            top: -20px;
             left: 0;
             content: "";
             position: absolute;
@@ -113,7 +113,7 @@
             background-color: #3fd6bc;
         }
         &:after{
-            top: 13px;
+            top: 21px;
             left: 0;
             content: "";
             position: absolute;
@@ -133,7 +133,7 @@
 
 .header__logo{
     cursor: pointer;
-    margin-right: 25%;
+    margin-right: 33%;
     
     @include tablets() {
         margin-right: 0;
@@ -141,7 +141,7 @@
 }
 
 .header__logo-pic{
-    width: 240px;
+    width: 246px;
     @include tablets() {
        width: 115px;
        height: 30px;

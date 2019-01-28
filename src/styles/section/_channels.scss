@@ -1,6 +1,16 @@
 .channels__content.container  {
     @include tablets() {
-        max-width: 1015px;
+        max-width: 1480px;
+        padding-left: 10%;
+    }
+    @include laptops() {
+        padding-left: 18%;
+    }
+}
+
+.channels__content.container  {
+    @include tablets() {
+        // padding-left: 9%;
     }
 }
 
@@ -12,10 +22,12 @@
 }
 
 .channels__text{
-    color:  #3b4269;
-    font-size: 24px;
+    color: #3b4269;
+    font-size: 26px;
     font-weight: 400;
     text-align: left;
+    line-height: 33px;
+    letter-spacing: 1.2px;
 
     @include tablets() {
         font-size: 18px;
@@ -25,7 +37,7 @@
 }
 
 .channels__list{
-    margin-top: 90px;
+    margin-top: 84px;
 
     @include tablets() {
        display: flex;
@@ -34,8 +46,8 @@
 }
 
 .channels__image{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
 
     @include tablets() {
         width: 40px;
@@ -47,7 +59,7 @@
 .channels__item{
     display: flex;
     align-items: center;
-    margin-bottom: 45px;
+    margin-bottom: 48px;
 
     @include tablets() {
         width: 33%;
@@ -86,12 +98,13 @@
 
 .channels__desc{
     color:  #0da088;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 400;
     text-decoration: underline;
     text-align: left;
     margin-left: 45px;
     cursor: pointer;
+    max-width: 330px;
 
     &:hover{
         text-decoration: none;

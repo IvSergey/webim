@@ -7,12 +7,12 @@
 }
 
 .dashboard-installation__title{
-    max-width: 501px;
+    max-width: 590px;
     color:  #393e6b;
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 700;
     text-align: left;
-    line-height: 50px;
+    line-height: 54px;
     text-transform: uppercase;
 
     @include tablets() {
@@ -24,7 +24,7 @@
 
 .dashboard-installation__text{
     color:  #74757b;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: 400;
     text-align: left;
     margin-bottom: 90px;
