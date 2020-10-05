@@ -47,9 +47,9 @@ module.exports = {
         }),
           
         // автоматически выносит код из разных js и css файлов
-        new webpack.optimize.CommonsChunkPlugin({
-        	name: 'common'
-        }),
+        // new webpack.optimize.CommonsChunkPlugin({
+        // 	name: 'common'
+        // }),
         // Минимизация css
         new OptimizeCssAssetsPlugin({
         	//Удаляет все комментарии из CSS кода
@@ -90,7 +90,7 @@ module.exports = {
           	},
 
           	{
-                  test: /\.(jpg|png|svg)$/,
+                  test: /\.(jpg|png|svg|ico)$/,
                   loader: 'file-loader',
                   exclude: /sprite/,
           		  options: {

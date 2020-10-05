@@ -1,32 +1,32 @@
 .simple-installation{
     background-color: #fff;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 90px;
 }
 
 .simple-installation__title{
     color:  #393e6b;
-    font-size: 52px;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     max-width: 310px;
     line-height: 50px;
-    margin-bottom: 58px;
+    // margin-bottom: 58px;
     @include tablets() {
         max-width: 350px;
-        font-size: 30px;
+        font-size: 1.875rem;
      }
 }
 
 .simple-installation__text{
     max-width: 556px;
     color:  #74757b;
-    font-size: 29px;
+    font-size: 1.625rem;
     font-weight: 400;
     margin-bottom: 10px;
     @include tablets() {
         max-width: 525px;
-        font-size: 16px;
+        font-size: 1rem;
      }  
 }
 
@@ -89,17 +89,17 @@
     max-width: 198px;
     margin-top: 41px;
     color:  #0da088;
-    font-size: 30px;
+    font-size: 1.625rem;
     font-weight: 400;
     text-align: left;
-    padding-left: 42px;
+    // padding-left: 42px;
 
     &:hover{
         text-decoration: none;
     }
     @include tablets() {
         max-width: 206px;
-        font-size: 16px;
+        font-size: 1rem;
         margin-top: 25px;
         margin-left: 40px;
      } 

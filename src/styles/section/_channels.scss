@@ -23,14 +23,14 @@
 
 .channels__text{
     color: #3b4269;
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
     line-height: 33px;
     letter-spacing: 1.2px;
 
     @include tablets() {
-        font-size: 18px;
+        font-size: 1.25rem;
         width: 90%;
         max-width: 777px;
     }
@@ -98,7 +98,7 @@
 
 .channels__desc{
     color:  #0da088;
-    font-size: 27px;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: underline;
     text-align: left;
@@ -112,7 +112,7 @@
 
     @include tablets() {
         margin-left: 30px;
-        font-size: 18px;
+        font-size: 1.125rem;
      }
 }
 

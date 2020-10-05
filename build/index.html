@@ -6,15 +6,30 @@
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link href="./css/index.css" rel="stylesheet"></head>
   <body>
+    <script>new WOW().init(); </script>
     <div class="wrapper">
 <header class="header">
   <div class="header__content container">
     <div class="hamburger header__menu">
-      <button class="gamb__btn" id="gamb"> </button>
+      <div id="contain">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <ul id="nav"> 
+        <li><a href="">Вход</a></li>
+        <li><a href="">Регистрация</a></li>
+        <li><a href="">Возможности</a></li>
+        <li><a href="">Тарифы</a></li>
+        <li><a href="">Партнерам</a></li>
+        <li><a href="">Помощь</a></li>
+      </ul>
     </div>
     <div class="header__navigation" id="navigation">
       <ul class="auth__list">
@@ -32,19 +47,19 @@
     </div><a class="header__logo" href="#"><img class="header__logo-pic" src="img/logo_head.svg" alt="logo"></a>
   </div>
 </header>
-<div class="installation">
+<section class="installation">
   <div class="installation__content container">
-    <h2 class="installation__title">Установка Webim</h2>
+    <h2 class="installation__title wow animate__animated animate__slideInDown">Установка Webim</h2>
     <p class="installation__text">Установка онлайн-консультанта Webim на ваш сайт не займет много времени. Вы можете установить онлайн-консультант Webim на ваш сайт и протестировать его в течение 7 дней бесплатно.   </p>
     <div class="installation__offer">
       <button class="offer__free">Попробовать бесплатно</button>
       <button class="offer__rates">Тарифы </button>
     </div>
   </div>
-</div>
-<div class="simple-installation">
+</section>
+<section class="simple-installation">
   <div class="simple-installation__content container">
-    <h2 class="simple-installation__title">Простая установка</h2>
+    <h2 class="simple-installation__title wow animate__animated animate__zoomIn">Простая установка</h2>
     <p class="simple-installation__text">Установка онлайн-консультанта Webim не займет более 15 минут</p>
     <ul class="step__list">
       <li class="step__item step__item_first">
@@ -59,10 +74,10 @@
       </li>
     </ul>
   </div>
-</div>
-<div class="html-installation">
+</section>
+<section class="html-installation">
   <div class="html-installation__content container">
-    <h2 class="html-installation__title">Установка HTML-кода</h2>
+    <h2 class="html-installation__title wow animate__animated animate__fadeInTopLeft">Установка HTML-кода</h2>
     <ul class="sites__list">
       <li class="sites__item"><a class="sites__link" href="#">
           <h3 class="sites__subtitle">Установка HTML-кода Webim для сайтов на Joomla</h3></a>
@@ -86,10 +101,10 @@
       </li>
     </ul>
   </div>
-</div>
-<div class="dashboard-installation">
+</section>
+<section class="dashboard-installation">
   <div class="dashboard-installation__content container">
-    <h2 class="dashboard-installation__title">Установка приложения для операторов Webim Dashboard</h2>
+    <h2 class="dashboard-installation__title wow animate__animated animate__lightSpeedInLeft">Установка приложения для операторов Webim Dashboard</h2>
     <p class="dashboard-installation__text">Чтобы быть на связи с клиентами всегда, установите приложение Webim Dashboard </p>
     <ul class="systems__list">
       <li class="systems__item"><a class="systems__link" href="#">
@@ -114,10 +129,10 @@
       </li>
     </ul>
   </div>
-</div>
-<div class="after-installation">
+</section>
+<section class="after-installation">
   <div class="after-installation__content container">
-    <h2 class="after-installation__title">Что Вас ждет после установки</h2>
+    <h2 class="after-installation__title wow animate__animated animate__rotateInUpLeft">Что Вас ждет после установки</h2>
     <p class="after-installation__text">Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет</p>
     <ul class="instruction__list">
       <li class="instruction__item">
@@ -158,7 +173,7 @@
             <use xlink:href="img/sprite/sprite.svg#operator"></use>
           </svg>
         </div>
-        <p class="instruction__text"><b>Шаг 1.</b>  Регистрация оператора</p>
+        <p class="instruction__text"><b>Шаг 5.</b>  Регистрация оператора</p>
       </li>
       <li class="instruction__item">
         <div class="instruction__image">
@@ -166,7 +181,7 @@
             <use xlink:href="img/sprite/sprite.svg#test"></use>
           </svg>
         </div>
-        <p class="instruction__text"><b>Шаг 1.</b>  Тест сервиса</p>
+        <p class="instruction__text"><b>Шаг 6.</b>  Тест сервиса</p>
       </li>
     </ul>
     <div class="after-installation__offer">
@@ -174,9 +189,9 @@
       <button class="offer__testing">Протестировать бесплатно      </button>
     </div>
   </div>
-</div>
-<div class="channels">
-  <div class="channels__content container"> 
+</section>
+<section class="channels">
+  <div class="channels__content container wow animate__animated animate__backInUp"> 
     <p class="channels__text">Webim – это не только онлайн-консультант. Интегрируйте и другие каналы, чтобы клиенты могли обращаться к вам любым удобным способом</p>
     <ul class="channels__list">
       <li class="channels__item">
@@ -209,7 +224,7 @@
       </li>
     </ul>
   </div>
-</div>
+</section>
 <footer class="footer">
   <div class="footer__content container">
     <div class="footer__copyright"><a class="footer__logo" href="#"><img class="footer__logo-pic" src="img/logo_footer.svg" alt="logo"></a>
@@ -260,6 +275,6 @@
   </div>
 </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">   </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
   <script type="text/javascript" src="./js/index.js"></script></body>
 </html>

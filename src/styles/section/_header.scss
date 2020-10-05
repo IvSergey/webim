@@ -9,6 +9,7 @@
     background-color: #fff;
     min-height: 160px;
     min-width: 100%;
+    box-shadow: 2px 1px 10px 1px grey;
     @include tablets() {
         min-height: 100px;
         background: url('../../img/background/header-bg.png') 0 no-repeat;
@@ -187,3 +188,87 @@
 .header__navigation .header__logo{
     display: flex;
 }
+
+#nav {
+    overflow: hidden;
+    background: #2cd3b8;
+    height: 0;
+    max-height: 0px; 
+    list-style-type: none;
+    padding-left: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    text-transform: uppercase;
+
+  }
+  
+  #nav.open {
+    height: auto;
+   max-height: 500px; 
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  
+  }
+  
+  #nav li {
+    float: none;
+    text-align: left;
+    text-decoration: none;
+    width: 100%; 
+    margin: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  }
+  
+  #nav li a {
+  text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    display: block;
+    margin: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  }
+
+  #contain {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #2cd3b8;
+    margin: 6px 0;
+    transition: 0.2s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+.hamburger.header__menu {
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+    @include tablets(){
+        display: none;
+    }
+  }

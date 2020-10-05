@@ -1,12 +1,12 @@
 .html-installation{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 90px;
 }
 
 .html-installation__title{
     max-width: 353px;
     color:  #393e6b;
-    font-size: 52px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: left;
     line-height: 50px;
@@ -14,7 +14,7 @@
     margin-bottom: 64px;
 
     @include tablets() {
-        font-size: 30px;
+        font-size: 1.875rem;
         max-width: 388px;
      }
 
@@ -22,7 +22,7 @@
 
 .sites__item{
     // list-style-type: disc;
-    margin-bottom: 65px;
+    margin-bottom: 56px;
 }
 
 .sites__link{
@@ -35,9 +35,9 @@
 
 .sites__subtitle{
    
-    font-size: 34px;
+    font-size: 1.875rem;
     font-weight: 400;
-    max-width: 491px;
+    // max-width: 491px;
     text-align: left;
     position: relative;
     margin-left: 40px;
@@ -61,19 +61,19 @@
         }
     }
     @include tablets() {
-        font-size: 24px;
+        font-size: 1.5rem;
         margin-bottom: 10px;
     }
 }
 
 .sites__text{
     color:  #74757b;
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
     margin-left: 40px;
 
     @include tablets() {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }

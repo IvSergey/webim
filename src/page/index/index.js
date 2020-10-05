@@ -1,5 +1,10 @@
+
+
 import './index.scss';
 import 'normalize.css';
+import 'wow.js';
+import 'animate.css';
+import  '../../components/burger/index.js';
 
 import '../../img/sprite/html.svg';
 import '../../img/sprite/registry.svg';
@@ -22,4 +27,10 @@ import '../../img/icons/mobile.svg';
 import '../../img/icons/social_network.svg';
 import '../../img/icons/yandexd.svg';
 import '../../img/logo/logo_head.svg';
+import '../../img/favicon/favicon.ico';
+
+
+
+
+
 
